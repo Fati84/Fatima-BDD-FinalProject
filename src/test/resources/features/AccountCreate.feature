@@ -29,4 +29,4 @@ Feature: Create an Account from home page.
     Then Error message "Account with email johnsmith@gmail.com is exist"
 
 
-
+pwd
