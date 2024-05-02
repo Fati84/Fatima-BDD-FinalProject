@@ -10,7 +10,7 @@ import static io.cucumber.core.snippets.SnippetType.CAMELCASE;
 @CucumberOptions(
         features = ("classpath:features"),
         glue = "tek.bdd.steps",
-        tags = "@Smoke",
+        tags = "@Regression",
         dryRun =false,
         plugin  = {
         "pretty",

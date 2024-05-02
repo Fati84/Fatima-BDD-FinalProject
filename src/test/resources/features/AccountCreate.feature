@@ -28,5 +28,3 @@ Feature: Create an Account from home page.
     Then Click on Create Account Button
     Then Error message "Account with email johnsmith@gmail.com is exist"
 
-
-pwd
