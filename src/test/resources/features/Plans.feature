@@ -16,5 +16,5 @@ Feature: Plan Page
   @Plan_2
   Scenario: Validate Create Date is today's date in (EST Time zone) and Date Expire is a day after
   Description: user should see that the create date is today's date and the expire date is a day after to ensure that plans are up-to-date.
-    Then Validate create date is today's date in EST Time zone
+    Then Validate create date is today's date
     Then Validate expire date is a day after today's date
